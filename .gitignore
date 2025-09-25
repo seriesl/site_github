@@ -1,0 +1,5 @@
+.quarto
+.DS_Store
+__pycache__
+/.quarto/
+_site/
