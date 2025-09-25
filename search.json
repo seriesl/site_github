@@ -1,0 +1,19 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto example site",
+    "section": "",
+    "text": "Vestibulum ornare fermentum tellus eget posuere. Maecenas efficitur orci consectetur, sodales ipsum et, lacinia est. Morbi tincidunt nisl id ligula bibendum dictum placerat interdum ipsum. Duis malesuada turpis et gravida ornare. Fusce condimentum nisl a purus finibus ornare. Ut molestie feugiat suscipit. Quisque congue efficitur est at tincidunt. Sed ut bibendum nisi. Duis sit amet mi at nunc tempus pretium vitae sed arcu. Suspendisse potenti. Pellentesque pellentesque dapibus auctor. Nam ultrices tellus a augue bibendum tristique.\nInteger convallis eros vitae nibh finibus, nec tincidunt mi fringilla. Donec vel interdum ante, eget auctor erat. Sed ut tortor at tortor porttitor tempus quis quis odio. Duis dolor erat, sollicitudin luctus laoreet eget, ultricies eu nibh. In semper augue ac tempus dignissim. Ut feugiat ligula ac neque sagittis cursus. Phasellus quis sem dictum, rhoncus arcu sit amet, ultricies tortor. Pellentesque eget malesuada quam, sed aliquam lorem. Praesent bibendum tincidunt ipsum a aliquet. Curabitur auctor hendrerit neque sit amet tristique. Quisque vehicula viverra dui quis rutrum.\nUt tincidunt laoreet diam, tristique tempus tortor maximus a. Phasellus commodo pellentesque dolor sed condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi viverra dolor eget eros tempor, et tristique mi interdum. Praesent eu lacus porttitor, dapibus magna sed, ornare diam. Proin in eros leo. Vivamus convallis orci est, at pharetra risus congue non.\nCras ac auctor elit, id varius turpis. Proin semper, odio nec rutrum sagittis, risus diam faucibus quam, eget sollicitudin erat velit et turpis. Quisque eget turpis aliquam, sagittis elit sed, elementum urna. Nullam nec ligula nibh. Pellentesque tempor et erat at sagittis. Duis pellentesque sapien porttitor metus fermentum placerat. Nam molestie sollicitudin sodales. Ut hendrerit molestie eros a tempus. Etiam a dui elementum, sollicitudin augue id, gravida nibh. Nam feugiat ligula ut facilisis pretium. Duis tempus mollis libero et tristique. Nulla odio neque, imperdiet sit amet felis a, auctor consectetur magna. Vivamus mi odio, scelerisque ac neque sed, suscipit scelerisque lacus. In congue orci sed magna ultricies aliquam in ac quam.\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam laoreet, nunc ut tincidunt vehicula, ligula elit bibendum felis, in eleifend quam est eget nulla. Suspendisse tortor dui, pretium ac libero sit amet, sodales mattis lorem. Curabitur id orci volutpat quam mattis facilisis eu vel neque. Fusce nec hendrerit mauris. Proin tincidunt tortor nec venenatis vestibulum. Fusce justo est, gravida sit amet magna vel, tristique aliquet diam. Pellentesque cursus blandit interdum. Morbi nec quam purus. In quis nisl vitae purus tincidunt iaculis. Maecenas commodo dolor et lacus molestie elementum. Proin venenatis dignissim sem, a pulvinar magna luctus at. Nam pharetra tellus vitae imperdiet consectetur. Mauris laoreet quam ac consequat pellentesque. In ut sapien at orci venenatis eleifend sit amet vel dolor. Morbi ornare massa dui, sit amet mattis nibh iaculis ut."
+  },
+  {
+    "objectID": "plot.html",
+    "href": "plot.html",
+    "title": "Plotly example",
+    "section": "",
+    "text": "Code\nimport plotly.graph_objects as go\nimport numpy as np\n\n\n\n\nCode\nx = np.linspace(0, 4*np.pi, 500)\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=x, y=np.sin(x), name='sin(x)'))\nfig.add_trace(go.Scatter(x=x, y=np.cos(x), name='cos(x)'))\nfig.show()",
+    "crumbs": [
+      "Plotly example"
+    ]
+  }
+]
