@@ -24,7 +24,8 @@ jobs:
               with:
                   environment-file: environment.yml
                   environment-name: quarto-env
-  
+                  init-shell: bash
+                  
             # - name: Install Python and Dependencies
             #   uses: actions/setup-python@v5
             #   with:
