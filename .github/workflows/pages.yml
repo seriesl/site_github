@@ -25,6 +25,10 @@ jobs:
                   environment-file: environment.yml
                   environment-name: quarto-env
                   init-shell: bash
+
+            - name: Export QUARTO_PYTHON variable
+              shell: bash -l {0}
+              run: echo "QUARTO_PYTHON=${CONDA_PREFIX}/bin/python" > _environment
                   
             # - name: Install Python and Dependencies
             #   uses: actions/setup-python@v5
