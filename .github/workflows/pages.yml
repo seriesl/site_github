@@ -23,6 +23,7 @@ jobs:
               uses: mamba-org/setup-micromamba@v2
               with:
                   environment-file: environment.yml
+                  environment-name: quarto-env
   
             # - name: Install Python and Dependencies
             #   uses: actions/setup-python@v5
