@@ -2,6 +2,7 @@ name: quarto-env
 channels:
   - conda-forge
 dependencies:
+  - quarto
   - jupyter
   - numpy
   - plotly

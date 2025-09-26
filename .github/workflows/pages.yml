@@ -40,4 +40,3 @@ jobs:
                   target: gh-pages
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              shell: micromamba-shell {0}
